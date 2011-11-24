@@ -1,0 +1,117 @@
+﻿body {
+	background-color: #000000;
+}
+#banner {
+	background-color: #FF962D;
+	width: 800px;
+	height: 130px;
+	background-image: url(banner.png);
+	background-repeat: no-repeat;
+}
+#member {
+	padding: 2px 0px 0px 700px;
+	background-color: #0000FF;
+	width: 100px;
+	height: 18px;
+	font-size: 13px;
+}
+#bannerLinks {
+	padding: 0px 0px 0px 100px;
+	position: relative;
+	width: 700px;
+	height: 30px;
+	background-color: #00FF00;
+}
+#sideLeft {
+	background-color: #00FFFF;
+	width: 150px;
+	height: 500px;
+}
+#main {
+	position: absolute;
+	width: 450px;
+	height: 500px;
+	top:0px;
+	left:150px;
+	right:0px;
+	bottom:0px;
+	background-color: #FF0000;
+	
+}
+#sideRight {
+	position: absolute;
+	width: 200px;
+	height: 500px;
+	top:0px;
+	left:600px;
+	right:0px;
+	bottom:0px;
+	background-color: #FFFF00;	
+}
+#footer {
+	position: relative;
+	padding: 6px 0px 0px 20px;
+	width: 780px;
+	height: 20px;
+	background-color: #FF99FF;
+	font-size: 11px;
+}
+#centerContain {
+	/* container for sideLeft, main, & sideRight */
+	position: relative;
+}
+#mainContain {
+	/* container for layout to center in browser */
+	margin: 0 auto;
+	width: 800px;
+	height: 706px;
+}
+/* buttons and hover-over */
+#home {
+	width: 57px;
+	height: 25px;
+	position: absolute;
+	background-repeat: no-repeat;
+}
+#registration {
+	width: 112px;
+	height: 25px;
+	position: absolute;
+	top:0px;
+	left:210px;
+	right:0px;
+	bottom:0px;
+	background-repeat: no-repeat;
+}
+#contact {
+	width: 75px;
+	height: 25px;
+	position: absolute;
+	top:0px;
+	left:380px;
+	right:0px;
+	bottom:0px;
+	background-repeat: no-repeat;
+}
+
+#schedule {
+	width: 81px;
+	height: 25px;
+	position: absolute;
+	top:0px;
+	left:510px;
+	right:0px;
+	bottom:0px;
+	background-repeat: no-repeat;
+}
+#info {
+	width: 38px;
+	height: 25px;
+	position: absolute;
+	top:0px;
+	left:640px;
+	right:0px;
+	bottom:0px;
+	background-repeat: no-repeat;
+}
+.imgHome{display: block; position:absolute; top:106px; left:5px}

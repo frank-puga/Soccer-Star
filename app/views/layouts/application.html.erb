@@ -1,14 +1,28 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>SoccerStar</title>
-  <%= stylesheet_link_tag    "application" %>
+  <title>SoccerStar: <%= @title %></title>
+  <%= render 'layouts/stylesheets' %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
 </head>
-<body>
-
-<%= yield %>
-
+<body bgcolor="#000000" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+	<div id="mainContain">
+		<div id="banner"></div>
+		<div id="member"></div>
+		<div id="bannerLinks">
+			<div id="home"><%= render 'layouts/home' %></div>
+			<div id="registration"><%= render 'layouts/registration' %></div>
+			<div id="contact"><%= render 'layouts/contact' %></div>
+			<div id="schedule"></div>
+			<div id="info"></div>
+		</div>
+		<div id="centerContain">
+			<div id="sideLeft"><%= yield :sideLeft %></div>
+			<div id="main"><%= yield :main %></div>
+			<div id="sideRight"><%= yield :sideRight %></div>
+		</div>
+		<div id="footer"><%= render 'layouts/footer' %></div>
+	</div>
 </body>
 </html>
