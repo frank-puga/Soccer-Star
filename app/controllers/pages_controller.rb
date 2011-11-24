@@ -11,16 +11,4 @@ class PagesController < ApplicationController
     @title = "Contact"
   end
 
-  def schedule
-    @title = "Schedule"
-  end
-
-  def info
-    @title = "Info"
-  end
-
-  def signin
-    @title = "Sign In"
-  end
-
 end
