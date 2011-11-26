@@ -9,16 +9,16 @@ describe PagesController do
     end
   end
 
-  describe "GET 'registration'" do
-    it "returns http success" do
-      get 'registration'
-      response.should be_success
-    end
-  end
-
   describe "GET 'contact'" do
     it "returns http success" do
       get 'contact'
+      response.should be_success
+    end
+  end
+  
+  describe "GET 'schedule'" do
+    it "returns http success" do
+      get 'registration'
       response.should be_success
     end
   end

@@ -1,7 +1,7 @@
 SoccerStar::Application.routes.draw do
   root :to => 'pages#home'
   match '/contact', :to => 'pages#contact'
-  match '/registration', :to => 'pages#registration'
+  match '/schedule', :to => 'pages#schedule'
 
 
   # The priority is based upon order of creation:
