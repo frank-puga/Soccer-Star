@@ -2,7 +2,7 @@
 	background-color: #000000;
 }
 #banner {
-	background-color: #FF962D;
+	background-color: #FF7700;
 	width: 800px;
 	height: 130px;
 	background-image: url(banner.png);
@@ -10,7 +10,7 @@
 }
 #member {
 	padding: 2px 0px 0px 700px;
-	background-color: #0000FF;
+	background-color: #FF7700;
 	width: 100px;
 	height: 18px;
 	font-size: 13px;
@@ -20,10 +20,10 @@
 	position: relative;
 	width: 700px;
 	height: 30px;
-	background-color: #00FF00;
+	background-color: #FF7700;
 }
 #sideLeft {
-	background-color: #00FFFF;
+	background-color: #FF962D;
 	width: 150px;
 	height: 500px;
 }
@@ -35,7 +35,7 @@
 	left:150px;
 	right:0px;
 	bottom:0px;
-	background-color: #FF0000;
+	background-color: #FF962D;
 	
 }
 #sideRight {
@@ -46,14 +46,14 @@
 	left:600px;
 	right:0px;
 	bottom:0px;
-	background-color: #FFFF00;	
+	background-color: #FF962D;	
 }
 #footer {
 	position: relative;
 	padding: 6px 0px 0px 20px;
 	width: 780px;
 	height: 20px;
-	background-color: #FF99FF;
+	background-color: #FF962D;
 	font-size: 11px;
 }
 #centerContain {

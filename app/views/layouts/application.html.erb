@@ -6,7 +6,7 @@
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
 </head>
-<body bgcolor="#000000" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<body link="#000000" bgcolor="#000000" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
 	<div id="mainContain">
 		<div id="banner"></div>
 		<div id="member"></div>
@@ -18,7 +18,8 @@
 			<div id="info"></div>
 		</div>
 		<div id="centerContain">
-			<div id="sideLeft"><%= yield :sideLeft %></div>
+			<div id="sideLeft"><center><font face="georgia" size="5" color="FFFF00">
+				<%= @title %></font></center><%= yield :sideLeft %></div>
 			<div id="main"><%= yield :main %></div>
 			<div id="sideRight"><%= yield :sideRight %></div>
 		</div>
