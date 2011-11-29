@@ -1,6 +1,4 @@
 SoccerStar::Application.routes.draw do
-  resources :microposts
-  resources :users
   
   root :to => 'pages#home'
   match '/contact', :to => 'pages#contact'
