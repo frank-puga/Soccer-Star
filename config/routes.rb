@@ -1,4 +1,4 @@
-SoccerStar::Application.routes.draw do
+Soccer-Star::Application.routes.draw do
   root :to => 'pages#home'
   match '/contact', :to => 'pages#contact'
   match '/schedule', :to => 'pages#schedule'
