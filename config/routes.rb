@@ -1,5 +1,5 @@
 SoccerStar::Application.routes.draw do
-  root :to => 'pages#home'
+  root :to => 'pages#index'
   match '/contact', :to => 'pages#contact'
   match '/schedule', :to => 'pages#schedule'
 
