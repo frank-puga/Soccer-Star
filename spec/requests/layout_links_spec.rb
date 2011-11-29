@@ -8,7 +8,7 @@ describe "LayoutLinks" do
     end
   
      it "should have an about page at '/about'" do
-      get '/registration'
+      get '/schedule'
       response.should have_selector("title", :content => "Schedule")
     end
      
@@ -20,7 +20,7 @@ describe "LayoutLinks" do
     it "should have the right links on the layout" do
       visit root_path
       response.should have_selector('title', :content => "Home")
-      click_link "Registration"
+      click_link "Schedule"
       response.should have_selector('title', :content => "Schedule")
       click_link "Contact"
       response.should have_selector('title', :content => "Contact")           

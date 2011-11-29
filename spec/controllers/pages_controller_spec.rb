@@ -18,7 +18,7 @@ describe PagesController do
   
   describe "GET 'schedule'" do
     it "returns http success" do
-      get 'registration'
+      get 'schedule'
       response.should be_success
     end
   end
