@@ -1,0 +1,86 @@
+<h1>Pages#info</h1>
+<p>Find me in app/views/pages/info.html.erb</p>
+
+<% content_for :sideLeft do %>
+  <%= image_tag(@random_image, :class => 'imgHome') %>
+<% end %>
+
+<% content_for :main do %>
+  	<center>
+  	<font size="5" face="times" color="#000000">	
+  	<p>Team Records</p></font>
+  	<div id="statContain">
+		<div id="team">Team</div>
+		<div id="wins">Wins</div>
+		<div id="loses">Loses</div>
+		<div id="ties">Ties</div>
+	</div>
+  	<div id="statContain">
+		<div id="team">Wolfpack</div>
+		<div id="wins">3</div>
+		<div id="loses">0</div>
+		<div id="ties">0</div>
+	</div>
+	<div id="statContain">
+		<div id="team">Bull Dogs</div>
+		<div id="wins">0</div>
+		<div id="loses">2</div>
+		<div id="ties">1</div>
+	</div>
+	<div id="statContain">
+		<div id="team">Cobra</div>
+		<div id="wins">1</div>
+		<div id="loses">1</div>
+		<div id="ties">1</div>
+	</div>
+	<div id="statContain">
+		<div id="team">Eagles</div>
+		<div id="wins">1</div>
+		<div id="loses">1</div>
+		<div id="ties">1</div>
+	</div>
+	<div id="statContain">
+		<div id="team">Gators</div>
+		<div id="wins">2</div>
+		<div id="loses">0</div>
+		<div id="ties">1</div>
+	</div>
+	<div id="statContain">
+		<div id="team">Lions</div>
+		<div id="wins">1</div>
+		<div id="loses">2</div>
+		<div id="ties">0</div>
+	</div>
+	<div id="statContain">
+		<div id="team">Piranhas</div>
+		<div id="wins">0</div>
+		<div id="loses">1</div>
+		<div id="ties">2</div>
+	</div>
+	<div id="statContain">
+		<div id="team">Rhinos</div>
+		<div id="wins">0</div>
+		<div id="loses">2</div>
+		<div id="ties">1</div>
+	</div>
+	<div id="statContain">
+		<div id="team">Turtles</div>
+		<div id="wins">1</div>
+		<div id="loses">0</div>
+		<div id="ties">1</div>
+	</div>
+	</center>
+  <font size="4" face="arial" color="#000000">	
+  	<center><p>
+  	We have training available for all ages.<br /> Teams from 4 - 11.<br />
+  	Tuition cost: $65/season<br />
+  	about 12 weeks<br />
+  	The first uniform is provided.<br />
+  	
+  	</p></center>
+  </font>
+<% end %>
+
+<% content_for :sideRight do %>
+  <%= image_tag('right.png') %>
+<% end %>
