@@ -8,6 +8,13 @@ describe PagesController do
       response.should be_success
     end
   end
+  
+  describe "GET 'registration'" do
+    it "returns http success" do
+      get 'home'
+      response.should be_success
+    end
+  end
 
   describe "GET 'contact'" do
     it "returns http success" do
