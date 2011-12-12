@@ -1,0 +1,28 @@
+<h1>Users#registration</h1>
+<p>Find me in app/views/users/registration.html.erb</p>
+
+<% content_for :sideLeft do %>
+  <%= image_tag(@random_image, :class => 'imgHome') %>
+<% end %>
+
+<% content_for :main do %>
+	<%= form_for(@user) do |f| %>
+	  <div class="field" >
+	    <%= f.label :name %>
+	    <%= f.text_field :name %>
+	  </div>
+	  
+	  <div class="field" >
+	    <%= f.label :email %>
+	    <%= f.text_field :email %>
+	  </div>
+	  
+	  <div class="actions" >
+	    <%= f.submit "Sign up" %>
+	  </div>
+	<% end %>
+<% end %>
+
+<% content_for :sideRight do %>
+  <%= image_tag('right.png') %>
+<% end %>
